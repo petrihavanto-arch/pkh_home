@@ -34,7 +34,8 @@ a gc='git commit'
 a gs='git status'
 a gu='git restore --staged' # unstage
 a gpsh='git push'
-a gl='git log --oneline --decorate --graph --all'
+a gl="git log --graph --oneline --decorate --exclude='refs/copilot/checkpoints/**' --all"
+
 a gpul='git pull'
 a grph='git rev-parse --short HEAD'
 
