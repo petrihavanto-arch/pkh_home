@@ -8,6 +8,8 @@ import time
 import evdev
 from evdev import InputDevice, UInput, ecodes as e
 
+time.sleep(10)
+
 p = argparse.ArgumentParser()
 p.add_argument("--match", default="MX Master 3S", help="substring of the input device name")
 p.add_argument("--threshold", type=int, default=120,
