@@ -44,3 +44,6 @@ a gpr='gh pr create'
 a ave='. .venv/bin/activate'
 
 a ksc=' . ~/kscreen.sh'
+
+a mx='/home/petri/bin/two-scrolls.py --scroll-threshold 24 --scroll-arrow --threshold 250 --grab --invert --verbose'
+
